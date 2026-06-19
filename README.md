@@ -9,7 +9,7 @@
 ## Setup on a new machine
 
 ```bash
-git clone --bare git@github.com:YOUR_USERNAME/dotfiles.git ~/.dotfiles
+git clone --bare git@github.com:Xzz/dotfiles.git ~/.dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 dotfiles checkout
 dotfiles config status.showUntrackedFiles no
@@ -18,7 +18,7 @@ dotfiles config status.showUntrackedFiles no
 ## Usage
 
 ```bash
-dotfiles add -f ~/.config/something
-dotfiles commit -m "add something"
+dotfiles add -f ~/.config/cool_stuff
+dotfiles commit -m "Added cool stuff"
 dotfiles push
 ```
